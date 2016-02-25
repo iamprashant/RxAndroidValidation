@@ -5,6 +5,10 @@ import butterknife.ButterKnife;
 import butterknife.Bind;
 import android.support.v7.app.AppCompatActivity;
 import static android.text.TextUtils.isEmpty;
+import rx.functions.Action1;
+import rx.functions.Func1;
+import rx.Observable;
+import rx.Observer;
 
 public class RxSingleTextViewValidation extends AppCompatActivity{
     @Bind(R.id.title)
